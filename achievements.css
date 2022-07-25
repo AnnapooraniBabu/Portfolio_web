@@ -1,0 +1,110 @@
+body {
+    background-image: linear-gradient(to top right,  #43cea2,   #185a9d);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   .navb{
+
+    background-color:   #00cdac;
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    list-style-type: none;
+    margin-top: -0.5%;
+   margin-left: -0.5%;
+
+
+  }
+  .navb img{
+    position:absolute;
+    height: 5vh;
+}
+
+li {
+      
+    display: inline;
+    position: relative;
+    padding-top:10% ;
+  }
+li a{
+    color: aliceblue;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+  }
+  a{ 
+    position: relative;
+    top: 25px;
+    /* padding-top:10% ; */
+    margin-left: 5%;
+    font-size: 30px;
+    text-decoration: none;
+    
+    /* font-family: Georgia, Times, 'Times New Roman', serif; */
+
+}
+.Gallery{
+    color: #185a9d;
+}
+.left{
+  width: 50%;
+  height: 10vh;
+  background-color: aliceblue;
+  margin-left: 5%;
+  margin-top: 2%;
+  position: relative;
+  border-radius: 12px;
+  transition: transform .2s;
+}
+.left:hover {
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.left p{
+  position: absolute;
+  margin-left: 12%;
+  font-size: 25px;
+  margin-top: 3.5%;
+}
+.left img{
+  position: absolute;
+  width: 8%;
+  margin-top: 1%;
+  margin-left: 3%;
+}
+.right{
+  width: 50%;
+  height: 10vh;
+  background-color: aliceblue;
+  margin-left: 45%;
+  margin-top: 2%;
+  position: relative;
+  border-radius: 12px;
+  transition: transform .2s;
+}
+.right:hover {
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.right p{
+  position: absolute;
+  margin-left: 12%;
+  font-size: 25px;
+  margin-top: 3.5%;
+}
+.right img{
+  position: absolute;
+  width: 8%;
+  margin-top: 1%;
+  margin-left: 3%;
+}
+.log{
+  transition: transform .2s;
+}
+
+.log:hover{
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}

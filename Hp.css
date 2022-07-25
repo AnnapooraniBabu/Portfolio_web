@@ -1,0 +1,117 @@
+body {
+   
+    background-image: linear-gradient(to top right,  #43cea2,   #185a9d);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+.navb{
+
+
+    background-color:   #00cdac;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    list-style-type: none;
+    margin-top: -0.5%;
+   margin-left: -0.5%;
+   
+
+}
+/* ul {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  } */
+.navb li {
+      
+    display: inline;
+    position: relative;
+    padding-top:10% ;
+  }
+ li a{
+    color: aliceblue;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+  }
+
+ a{ 
+    position: relative;
+    top: 25px;
+    /* padding-top:10% ; */
+    margin-left: 5%;
+    font-size: 30px;
+    text-decoration: none;
+    
+    /* font-family: Georgia, Times, 'Times New Roman', serif; */
+
+}
+.wholeDiv img{
+    height: 60vh;
+    width: 29%;
+    border-radius:100%;
+    /* border-radius:50px 20px; */
+    /* border: #185a9d solid 10px; */
+    /* background-image: linear-gradient(to top right,  #43cea2,   #185a9d); */
+    margin-left: 60%;
+    margin-top: 10%;
+    position: fixed;
+}
+.fc{
+    width: 20%;
+    height: 40vh;
+    background-image: linear-gradient(to top right,   #185a9d, #43cea2);
+    /* background-color: #185a9d; */
+    /* position:fixed; */
+    border-radius: 100%;
+    margin-left: 75%;
+    margin-top: 6%;
+    position: fixed;
+    z-index: -1;
+}
+.sc{
+    width: 20%;
+    height: 40vh;
+    background-image: linear-gradient(to top right,   #185a9d, #43cea2);
+    position: fixed;
+    border-radius: 100%;
+    margin-left: 53%;
+    margin-top: 30%;
+    z-index: -1;
+}
+.wholeDiv{
+    position: relative;
+}
+.fp{
+    /* color:#185a9d ; */
+    color: aliceblue;
+    font-size: 110px;
+    position: fixed;
+    margin-left: 10%;
+    top: -15%;
+    /* margin-top: 80%; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sp{
+    /* color: #41b2b0; */
+    color: aliceblue;
+    position: fixed;
+    /* position: fixed; */
+    font-size: 110px;
+    /* margin-top: 17%; */
+    
+    margin-left: 22%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tp{
+    /* color: #43cea2; */
+    color: aliceblue;
+    position: fixed;
+    /* position: fixed; */
+    font-size: 110px;
+    top: -15%;
+    margin-top: 23%;
+    margin-left: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

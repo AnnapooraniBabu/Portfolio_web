@@ -1,0 +1,106 @@
+body {
+    background-image: linear-gradient(to top right,  #43cea2,   #185a9d);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+   }
+.navb{
+
+    background-color:   #00cdac;
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    list-style-type: none;
+    margin-top: -0.5%;
+    margin-left: -0.5%;
+}
+.log{
+  transition: transform .2s;
+}
+
+.log:hover{
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.navb img{
+  position:absolute;
+  height: 5vh;
+}
+
+.navb li {
+      
+    display: inline;
+    position: relative;
+    padding-top:10% ;
+  }
+li a{
+    color: aliceblue;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+  }
+a{ 
+    position: relative;
+    top: 25px;
+    margin-left: 5%;
+    font-size: 30px;
+    text-decoration: none;
+      /* font-family: Georgia, Times, 'Times New Roman', serif; */
+
+}
+.Skills{
+    color: #185a9d;
+}
+.sk{
+  font-size: 50px;
+  color: #185a9d;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  margin-left: 7%;
+  margin-top: 5%;
+  position: absolute;
+}
+.skdiv{
+  background-color: aliceblue;
+  width: 70%;
+  height: 60vh;
+  border-radius: 12px;
+  margin-left: 15%;
+  margin-top: 5%;
+  position: relative;
+  display: flex;
+}
+.skdiv img{
+  width: 15%;
+}
+
+.skdiv img:hover{
+  -ms-transform: scale(1); /* IE 9 */
+-webkit-transform: scale(1); /* Safari 3-8 */
+transform: scale(1.1); 
+}
+
+/* .li.ab img{
+width: 15%;
+} */
+
+.li{
+  position: relative;
+  margin-top: 13%;
+  font-size: 2.2em;
+  list-style-type: none;
+  margin-left: 10%;
+}
+/* .li.ab{
+  position: absolute;
+  margin-top: 10%;
+  font-size: 30px;
+  list-style-type: none;
+  margin-left: 30%;
+}
+.li.ac{
+  position: absolute;
+  margin-top: 10%;
+  font-size: 30px;
+  list-style-type: none;
+  margin-left: 60%;
+} */
