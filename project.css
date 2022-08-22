@@ -7,7 +7,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
    }
-.navb{
+.navbar{
 
     background-color:   #00cdac;
     height: 10vh;
@@ -16,42 +16,51 @@ body {
     list-style-type: none;
     margin-top: -0.5%;
     margin-left: -0.5%;
-
+z-index: 10;
 }
 .log{
     transition: transform .2s;
 }
+
+
 
 .log:hover{
     -ms-transform: scale(1); /* IE 9 */
     -webkit-transform: scale(1); /* Safari 3-8 */
     transform: scale(1.1); 
 }
-.navb img{
-    position:absolute;
-    height: 3vh;
-    
-}
-.ul-2{
-    margin-left: 68%;
+
+ .ul_2{
+    margin-left:100%;
     margin-top: -1%;
-}
-.ul-2 li img{
-    position:absolute;
+    position: absolute;
+     /* list-style-type: none; */
+    /* display: inline-flex; */
+
+} 
+.ul_2 li img{
+    /* position:absolute; */
     height: 3.5vh;
     /* display: inline; */
     list-style: none;
     text-decoration: none;
-    /* position: relative; */
+   
+    /* margin-left: 100px; */
 }
-.ul-2 li{
-    
-    display: inline-flex;
+.ul_2 li{
+/* float: left; */
+    display:inline-flex;
     list-style: none;
+    
     margin-left: 12%;
 
 }
-.navb li {
+.navbar img{
+    position:absolute;
+    height: 3vh;
+    
+}
+.navbar li {
       
     display: inline;
     position: relative;
@@ -119,3 +128,78 @@ p{
     color: #185a9d;
     font-weight: bold;
 }
+/* 
+.project{
+    
+    width: 50%;
+    height: 30vh;
+    margin-top: 150px;
+    margin-left: 700px;
+    background-color: white;
+} */
+#project{
+    width: 1200px;
+    height: 40vh;
+    margin-top: 10%;
+    border-radius: 20px;
+    margin-left: 25%;
+    background-color: white;
+}
+.project-content{
+font-size: 25px;
+padding: 0%;
+margin-left: 45%;
+/* margin-top: 5%; */
+/* display: flex; */
+}
+.p-div-1{
+    position: absolute;
+    margin-top: 8%;
+    width: 50%;
+    height: 30vh;
+    margin-left: -15%;
+    /* display: inline-flex; */
+    /* background-color: lightcoral; */
+}
+.p-div-2{
+    position: absolute;
+    margin-top: 8%;
+    width: 50%;
+    height: 30vh;
+    margin-left: 30%;
+    /* display: inline-flex; */
+    /* background-color: lightcoral; */
+}
+
+.div-ul-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.div-ul-2 ul{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 105%;
+
+}
+.p-div-2 a{
+    top: -5%;
+    font-size: 20px;
+}
+.project-no{
+position: absolute;
+margin-top: -12%;
+color:#185a9d;
+}
+.public-links{
+    width: 25%;
+      position: fixed;
+      top: 0%;
+      right: 3%;
+      display: flex;
+      column-gap: 5%;
+  }
+  .public-links li{
+    width: 100%;
+    padding-top: 0;
+  }
